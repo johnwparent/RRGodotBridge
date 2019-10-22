@@ -1,0 +1,43 @@
+updates:
+
+
+built a functional model, crashed any simulation, seemed to timeout, mad slow,
+this was about 2 days before I talked to Will last,
+
+since then, I've rebuilt the module, a little more minimally, 
+really only the node and a wrapper for the RRSharedPtr
+
+Should be done by the end of the weekend, then on to testing, and mapping
+godot object feedback through the RR objects
+
+so I pared down what is exposed to godot,
+so instead of calling from godot, things are 
+called only from the module
+
+or a server - model godot's physics engine, or
+gd script parser
+
+effort command, have a robot controller
+implement the actual torques
+
+
+setup a request queue on the godot side, based
+for threadding timing issues.
+
+
+use the servo for the standard robdefs
+to test the RR Godot stuff
+
+
+Look at the gazebo module for RR for how these should be used
+robotracontuerstandardrobefcpp
+
+
+
+John Wason
+
+
+all datatypes are standardized throughout godot
+
+add vr stuff
+
